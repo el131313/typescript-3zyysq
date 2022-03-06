@@ -14,10 +14,10 @@ class Request{
   fulfiller: boolean = false;
 
   constructor(method: string, uri: string, version:string, message: string){
-    this.method = "323";
-    this.uri = "323"
-    this.version = "this.version3";
-    this.message = "this.message3";
+    this.method = method;
+    this.uri = uri;
+    this.version = version;
+    this.message = message;
   }
 }
 
